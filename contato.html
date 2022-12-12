@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <style>
+ html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(170, 170, 170);
+    padding: 10px 1px 0px;
+}
+.header {
+    background-color: #0f2a37;
+    min-height: 190px;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #4e4f52;
+    min-height: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu lateral">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="atendimento.html">Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+             
+             <img src="aclinica-pg2-.png">   
+            </div>
+            
+            <div class="content">
+                <h1>Entre em contato</h1>
+               <form method="get">
+                <label>Nome: </label><input type="name"><br>
+                <label>Telefone: </label><input type="number"><br>
+                <label>E-mail: </label><input type="email"/><br>
+                <select nome="role">
+                    <option value=""> Selecione um serviço</option>
+                    <option value="fisioterapeuta">fisioterapeuta </option>
+                    <option value="Nutricionista"> Nutricionista</option>
+                    <option value="Dermatologista"> Dermatologista</option>
+                    <option value="Cardiologista"> Cardiologista</option>
+                </select><br>
+                <label>Nos conte um pouco a sua necessidade.</label><br>
+                <textarea name="mensagem" cols="30" rows="5"></textarea><br>
+               </form>
+               <button type="submit" value="Enviar">Enviar</button>
+            </div>
+
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.039506841664!2d-43.92015568482607!3d-19.92273994322907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6998eddb42243%3A0x4cc80185654d1665!2sCl%C3%ADnica%20Unimed%20Pleno%20Santa%20Efig%C3%AAnia!5e0!3m2!1spt-BR!2sbr!4v1670403698835!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="footer">
+
+                <p>
+                <img src="logo01.jpg" width="50"> 
+                <img src="instagram.png"width=45>
+                <img src="linkedin.png"width=45>
+                <img src="facebook.png"width=45>
+                <img src="email.png"width=45>
+                <img src="telephone-call.png"width=45> 
+                </p>
+                
+            </div >
+        </div>
+    </div>
+    
+</body>
+</html>
